@@ -1,3 +1,20 @@
 body{
-  background-color:blue;
+  margin: 0px;
+}
+.top-container{
+  background-color: #ffd3b4;
+}
+h1{
+  margin-top:0px;
+  /* margin-bottom:0px; */
+}
+.middle-container{
+  height: 200px;
+  width :200px;
+  background-color: red;
+}
+.bottom-container{
+  height: 200px;
+  width :200px;
+  background-color: blue;
 }
