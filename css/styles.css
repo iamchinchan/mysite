@@ -1,4 +1,5 @@
 body{
+  background-color:#d5ecc2;
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather', serif,sans-serif;
@@ -49,7 +50,7 @@ a:hover{
   /* text-decoration:underline; */
 }
 .middle-container{
-  
+  background-color: #f1e2ce;
 }
 .bottom-container{
   background-color:#66bfbf;
