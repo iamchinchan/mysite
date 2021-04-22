@@ -8,6 +8,7 @@ body{
   background-color: #ffd3b4;
   margin:0 auto;
   padding-top:100px;
+  height:500px;
 }
 h1{
   margin-top:0px;
@@ -18,19 +19,48 @@ h2,h3{
   font-family: 'Montserrat', sans-serif,serif;
 }
 .middle-container{
-  height: 200px;
-  width :200px;
-  background-color: red;
+  
 }
 .bottom-container{
-  height: 200px;
-  width :200px;
-  background-color: blue;
+  
 }
 .bottom-cloud{
   position:absolute;
   left:350px;
-  bottom:300px;
+  bottom:340px;
+}
+.tree-left{
+  position:absolute;
+  /* left:400px; */
+  width:400px;
+  top:10px;
+  left:0;
+  opacity:0.1;
+  /* align:center; */
+  /* margin:0 auto; */
+  
+}
+.tree-right{
+  position:absolute;
+  right:120px;
+  bottom:60px;
+  width:400px;
+  opacity:0.1;
+}
+.top-left-cloud{
+  position:absolute;
+  top:60px;
+  left:200px;
+}
+.leaf{
+position:absolute;
+bottom:10px;
+right:0;
+}
+.forest{
+position: absolute;
+left:0;
+bottom:0;
 }
 .top-cloud{
   position:absolute;
@@ -40,3 +70,11 @@ h2,h3{
 .underline{
   text-decoration: underline;
 }
+.circular{
+  border-radius: 100%;
+}
+ .mountain{
+ position: relative;
+ top:130px;
+
+} 
